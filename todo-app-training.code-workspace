@@ -1,0 +1,27 @@
+{
+	"folders": [
+		{
+			"path": "source/client"
+		}
+	],
+	"settings": {
+		"editor.formatOnSave": true,
+		"editor.codeActionsOnSave": {
+			"source.fixAll.eslint": "explicit"
+		},
+		"files.insertFinalNewline": true,
+		"files.trimTrailingWhitespace": true,
+		"typescript.tsserver.experimental.enableProjectDiagnostics": true,
+		"[vue]": {
+			"editor.defaultFormatter": "esbenp.prettier-vscode"
+		},
+	},
+	"extensions": {
+		"recommendations": [
+			"Vue.volar",
+			"ms-playwright.playwright",
+			"dbaeumer.vscode-eslint",
+			"esbenp.prettier-vscode"
+		]
+	}
+}
